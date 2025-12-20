@@ -76,7 +76,7 @@ step "6/10" "Installing zsh configs"
 backup "$TARGET_HOME/.zshrc"
 backup "$TARGET_HOME/.p10k.zsh"
 
-as_user "curl -fsSL https://gist.github.com/knutole/668dbfc9a7454f6e6bd9ba53d6bdc4dc/raw/.zshrc -o ~/.zshrc"
+as_user "curl -fsSL https://github.com/fabbr/dotfiles/blob/main/.zshrc -o ~/.zshrc"
 as_user "curl -fsSL https://github.com/fabbr/dotfiles/raw/main/.p10k.zsh -o ~/.p10k.zsh"
 
 as_user "
