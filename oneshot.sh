@@ -116,4 +116,4 @@ ok "Default shell set"
 # ================== launch zsh ==================
 step "10/10" "Launching zsh"
 ok "Bootstrap complete"
-exec zsh
+zsh
