@@ -20,7 +20,7 @@ append_once(){ grep -qxF "$1" "$2" 2>/dev/null || printf "\n%s\n" "$1" >> "$2"; 
 step "1/10" "Installing packages"
 if command -v apt-get >/dev/null 2>&1; then
   sudo apt-get update -y
-  sudo apt-get install -y tmux git curl zsh zfsutils-linux
+  sudo apt-get install -y tmux git curl zsh zfsutils-linux fzf zoxide
 elif command -v dnf >/dev/null 2>&1; then
   sudo dnf install -y tmux git curl zsh zfs || true
 else
