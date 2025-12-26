@@ -12,4 +12,4 @@
 	•	No broken shells
 	•	No missing icons
 
-Run once. Get to work.
+Run once. Get to work. PERIOD
