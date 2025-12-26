@@ -2,12 +2,12 @@ format = """
 $os\
 $sudo\
 $username\
-[  ](fg:peach)\
+[ \uf413](fg:peach)\
 $directory\
-[ ](fg:yellow)\
+[ \ue709](fg:yellow)\
 $git_branch\
 $git_status\
-[ ](fg:green)\
+[ \uf44f ](fg:green)\
 $c\
 $rust\
 $golang\
@@ -17,26 +17,24 @@ $java\
 $kotlin\
 $haskell\
 $python\
-[  ](fg:sapphire)\
+[ \uefc5 ](fg:sapphire)\
 $conda\
 $memory_usage\
 $fill\
 $hostname\
 $localip\
-[  ](fg:lavender)\
-c$cmd_duration\
+[ \ue38b ](fg:lavender)\
+$cmd_duration\
 $line_break\
 $character"""
 
 palette = 'catppuccin_mocha'
-add_newline= false
 
 [sudo]
 style = 'bold green'
-symbol = '👩‍💻'
+symbol = '🧙'
 disabled = false
 format = '[ $symbol](fg:red)'
-
 
 [localip]
 ssh_only = false
@@ -45,7 +43,7 @@ disabled = false
 
 [os]
 disabled = false
-style = "fg:red"
+style = "fg:sky"
 
 [hostname]
 ssh_only = true
@@ -54,13 +52,10 @@ trim_at = '.companyname.com'
 disabled = false
 style = "fg:peach"
 
-# ~/.config/starship.toml
-
 [memory_usage]
 disabled = false
 threshold = -1
-symbol = '🐏'
-format = '[$symbol ](fg:sapphire)[${ram} ${ram_pct}](fg:sapphire)'
+format = '[${ram} ${ram_pct}](fg:sapphire)'
 
 [os.symbols]
 Windows = ""
@@ -93,7 +88,7 @@ format = '[ $user]($style)'
 [directory]
 style = "fg:peach"
 format = "[ $path ]($style)"
-truncation_length = 3
+truncation_length = 5
 truncation_symbol = "…/"
 
 [directory.substitutions]
