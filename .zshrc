@@ -78,8 +78,9 @@ alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
 alias ll='eza -la --color=auto --icons --group-directories-first --git'
+alias tmux='tmux -u'
 
 # Shell integrations
 #eval "$(fzf --zsh)"
-#eval "$(zoxide init --cmd cd zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
