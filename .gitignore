@@ -10,3 +10,4 @@
 .config/tmux/.tmux/plugins/*
 ._*
 .DS_Store
+._.zshrc
