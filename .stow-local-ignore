@@ -10,6 +10,7 @@ RCS
 CVS
 \.\#.+       # CVS conflict files / emacs lock files
 \.cvsignore
+\.vscode
 
 \.svn
 _darcs

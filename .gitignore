@@ -1,0 +1,10 @@
+._.stow-local-ignore
+# VS Code specific files and settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# Optional: Local History for Visual Studio Code
+**/.history
+.config/tmux/.tmux/plugins/tpm
