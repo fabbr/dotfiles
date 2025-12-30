@@ -11,3 +11,5 @@
 ._*
 .DS_Store
 ._.zshrc
+# tmux plugins are installed by TPM
+.config/tmux/.tmux/plugins/
