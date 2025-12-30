@@ -7,4 +7,6 @@
 !.vscode/extensions.json
 # Optional: Local History for Visual Studio Code
 **/.history
-.config/tmux/.tmux/plugins/tpm
+.config/tmux/.tmux/plugins/*
+._*
+.DS_Store
